@@ -3,3 +3,4 @@
 *.hex
 hardware/plots/*
 hardware/compatikey-backups
+.#*
