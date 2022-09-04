@@ -1,0 +1,59 @@
+A 5
+B 9
+C 11
+D 7
+E 1
+F 9
+G 9
+H 7
+I 3
+J 13
+K 9
+L 9
+M 7
+N 5
+O 11
+P 11
+Q 13
+R 7
+S 5
+T 3
+U 7
+V 9
+W 9
+X 11
+Y 13
+z 11
+
+AVG_LETTER_L = 173 / 26; ~6.6
+
+AVG_WORD_L = 5
+
+DPM = (((AVG_WORD_L * AVG_LETTER_L) + AVG_WORD_L) * WPM) + (WPM * 3)
+
+DPS = DPM / 60
+
+Pins: 6
+Input 0 DIGT (use debounce chip)
+Input 1 DIGT (use debounce chip)
+Output Gate DIGT
+Output Pullup EN DIGT
+Output Invert DIGT
+DIP RNET ADC
+WPM Pot ADC
+
+
+DIP Options: 4
+Output Pullup (Default disabled)
+Invert Output (Default uninverted)
+Invert Input (Default uninverted)
+Paddle Invert (Default uninverted)
+Iambic A/B (Default A)
+Piezo Training Mode (Default disabled)
+
+
+http://www.whatimade.today/reading-multiple-bits-using-one-arduino-pin/
+R2R ladder parts:
+4 10k R pack series
+4 20k R pack parallel w/ switches
+
